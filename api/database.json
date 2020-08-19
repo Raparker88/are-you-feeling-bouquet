@@ -1,0 +1,197 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "Tulip",
+            "color": "Yellow"
+        },
+        {
+            "id": 2,
+            "commonName": "Cosmos",
+            "color": "White"
+        },
+        {
+            "id": 3,
+            "commonName": "Delphinium",
+            "color": "Blue"
+        },
+        {
+            "id": 4,
+            "commonName": "Strawflower",
+            "color": "Apricot"
+        },
+        {
+            "id": 5,
+            "commonName": "Crocosmia",
+            "color": "Orange"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Thibodaeux's Floral Studio",
+            "distributorId": 1
+        },
+        {
+            "id": 1,
+            "name": "Flora Savage",
+            "distributorId": 2
+        },
+        {
+            "id": 1,
+            "name": "Pistil and Stamen",
+            "distributorId": 1
+        },
+        {
+            "id": 1,
+            "name": "Fat Cat Flowers",
+            "distributorId": 3
+        },
+        {
+            "id": 1,
+            "name": "Carrollton Flower Market",
+            "distributorId": 2
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Abundance Flower Farm"
+        },
+        {
+            "id": 2,
+            "name": "Pikes Peak"
+        },
+        {
+            "id": 3,
+            "name": "Fat River"
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Harolds"
+        },
+        {
+            "id": 2,
+            "name": "The Plant Gallery"
+        },
+        {
+            "id": 3,
+            "name": "Sunrise Trading"
+        },
+        {
+            "id": 4,
+            "name": "Ninth Ward Nursery"
+        },
+        {
+            "id": 5,
+            "name": "Ben's Tropicals"
+        }
+
+    ],
+    "flowerNurseries": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "flowerId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "flowerId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "flowerId": 3
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "flowerId": 4
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "flowerId": 5
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "flowerId": 1
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "flowerId": 2
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "flowerId": 3
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "flowerId": 4
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "flowerId": 5
+        }
+    ],
+    "distributorNurseries": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 2,
+            "nurseryId": 1
+        },
+        {
+            "id": 3,
+            "distributorId": 3,
+            "nurseryId": 2
+        },
+        {
+            "id": 4,
+            "distributorId": 1,
+            "nurseryId": 2
+        },
+        {
+            "id": 5,
+            "distributorId": 2,
+            "nurseryId": 3
+        },
+        {
+            "id": 6,
+            "distributorId": 3,
+            "nurseryId": 3
+        },
+        {
+            "id": 7,
+            "distributorId": 1,
+            "nurseryId": 4
+        },
+        {
+            "id": 8,
+            "distributorId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 9,
+            "distributorId": 3,
+            "nurseryId": 5
+        },
+        {
+            "id": 10,
+            "distributorId": 1,
+            "nurseryId": 5
+        }
+    ]
+}
