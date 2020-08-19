@@ -38,7 +38,7 @@ const render = () => {
         let foundDistributor = distributors.find(d => d.id === retailer.distributorId)
         let nurseryRelationships = getNurseryRelationships(foundDistributor)
         let foundNurseries = findNurseries(nurseryRelationships)
-        let foundFlowers = foundNurseries.map(nursery => {
+        let foundFlowersInNursery = foundNurseries.map(nursery => {
             let flowerRelationships = flowerNurseries.filter(fn => fn.nurseryId === nursery.id)
             let foundFlowers = flowerRelationships.map(fr => {
                 let flowersAtNursery = flowers.find(f => f.id === fr.flowerId)
@@ -49,7 +49,7 @@ const render = () => {
         })
 
         retailer.distributor = foundDistributor
-        retailer.nurseries = foundFlowers
+        retailer.nurseries = foundFlowersInNursery
 
 
         return retailerHTMLConverter(retailer)
